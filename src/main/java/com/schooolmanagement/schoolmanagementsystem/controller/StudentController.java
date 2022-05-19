@@ -2,10 +2,8 @@ package com.schooolmanagement.schoolmanagementsystem.controller;
 
 
 
-import java.util.Optional;
 import com.schooolmanagement.schoolmanagementsystem.dto.StudentDto;
 import com.schooolmanagement.schoolmanagementsystem.exception.ResourceNotFoundException;
-import com.schooolmanagement.schoolmanagementsystem.mapper.StudentMapper;
 import com.schooolmanagement.schoolmanagementsystem.mapper.StudentMappers;
 import com.schooolmanagement.schoolmanagementsystem.model.Student;
 import com.schooolmanagement.schoolmanagementsystem.service.StudentServiceImpl;
@@ -15,26 +13,26 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
 @Validated
+@Slf4j
 public class StudentController {
       @Autowired
       StudentServiceImpl studentServiceImpl;
 
 
-   // private StudentMapper studentMapper;
+     StudentMappers studentMappers;
 
 
     @Operation(summary = "get Student details", description = "get a list of Student details", tags = "get")
@@ -48,7 +46,7 @@ public class StudentController {
 
     @Operation(summary = "get Student details", description = "get a list of particular Student details", tags = "get")
     @ApiResponse(responseCode = "200", description = "Found the Student", content = {@Content(mediaType = "application/json", schema = @Schema(implementation = Student.class))})
-    @GetMapping("/students/{id}")
+    @GetMapping("/student/{id}")
     public Student getStudentById(@Valid @PathVariable("id") int id) throws ResourceNotFoundException {
         Student student = studentServiceImpl.getStudent(id);
         if(student == null){
@@ -78,13 +76,7 @@ public class StudentController {
         studentServiceImpl.updateStudent(studentDetails);
         return "successfully updated";
     }
-  /**  @Operation(summary = "update the  Student details", description = "updating particular Student details", tags = "put")
-    @ApiResponse(responseCode = "200", description = "updated the Student details", content = {@Content(mediaType = "application/json", schema = @Schema(implementation = Student.class))})
-    @PatchMapping("/update")
-    public String updateStudents(@Valid  @RequestBody Student studentDetails) {
-        studentServiceImpl.updateStudent(studentDetails);
-        return "successfully updated";
-    }  */
+
 
     @Operation(summary = "Delete Student", description = "Delete a  particular Student details", tags = "delete")
     @ApiResponse(responseCode = "200", description = "deleted the Student", content = {@Content(mediaType = "application/json", schema = @Schema(implementation = Student.class))})
@@ -94,45 +86,25 @@ public class StudentController {
          studentServiceImpl.deleteStudent(id);
         return delete;
     }
-    @GetMapping("studentDTO/{id}")
+
+ @PatchMapping("/update/{id}")
+    public Student updateStudentWithMap(@PathVariable("id") int id, @RequestBody Map<Object,Object> objectMap){
+        return  studentServiceImpl.updateStudentWithMap(id,objectMap);
+  }
+
+    @GetMapping("/{id}")
     public StudentDto findUserById(@PathVariable("id") int id){
         Student studentData = studentServiceImpl.getStudent(id);
         return StudentMappers.toStudentDto(studentData);
-  }
+    }
+
+    @GetMapping("/allStudents")
+
+    public List<StudentDto> getAllStudentDetails() {
+
+        List<Student> allStudents = studentServiceImpl.getAllStudents();
+
+        return StudentMappers.StudentDTOs(allStudents);
+    }
 }
 
-  /**  @GetMapping("/stud")
-
-    public ResponseEntity<List<StudentDto>> getAllStudent() {
-        List<StudentDto> studentDtoList = studentMapper.ToStudentDtoS(studentServiceImpl.getAllStudents());
-
-
-        return ResponseEntity.ok(studentDtoList);
-    }
-
-
-
-    @GetMapping("/stu/{id}")
-
-    public ResponseEntity<StudentDto> findById(@PathVariable int id)
-    {
-
-    Student student = studentServiceImpl.getStudent(id);
-        StudentDto studentDto = studentMapper.toStudentDto(student);
-        return ResponseEntity.ok(studentDto);
-    }
-
-    @PostMapping("/insertValues")
-    public ResponseEntity<StudentDto> create(@RequestBody StudentDto studentDto)
-    {
-        System.out.println(studentDto);
-        Student student = studentMapper.toStudent(studentDto);
-        System.out.println("StudentMapper = " + studentMapper);
-        System.out.println(student);
-        System.out.println("studentServiceImpl= " + studentServiceImpl);
-        studentServiceImpl.addStudent(student);
-        return ResponseEntity.status(HttpStatus.CREATED).body(studentDto);
-    }
-
-
-}  */

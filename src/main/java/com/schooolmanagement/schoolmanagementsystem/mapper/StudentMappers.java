@@ -18,7 +18,7 @@ public class StudentMappers {
                 .name(student.getName())
                 .study(student.getStudy())
                 .address(student.getAddress())
-
+                .teachers(student.getTeacher())
                 .build();
     }
 
@@ -30,6 +30,7 @@ public class StudentMappers {
               .name(studentDto.getName())
               .study(studentDto.getStudy())
               .address(studentDto.getAddress())
+              .teacher(studentDto.getTeachers())
               .build();
  }
 
@@ -37,7 +38,7 @@ public class StudentMappers {
       return  studentDtoList.stream().map(a -> toStudent(a)).collect(Collectors.toList());
  }
 
-    public List<StudentDto> studentDTOs(List<Student> students){
+    public static List<StudentDto> StudentDTOs(List<Student> students){
        return students.stream().map(a -> toStudentDto(a)).collect(Collectors.toList());
     }
 }

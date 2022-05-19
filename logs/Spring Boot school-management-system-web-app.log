@@ -1,0 +1,370 @@
+"19-05-2022 12:35:42.827 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 18596 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 12:35:42.829 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 12:35:42.954 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 12:35:42.955 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 12:35:44.600 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 12:35:44.697 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+""19-05-2022 12:35:46.149 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 12:35:46.169 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 12:35:46.170 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 12:35:46.321 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 12:35:46.322 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3364 ms
+""19-05-2022 12:35:46.433 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 12:35:46.779 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 12:35:46.804 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 12:35:47.027 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 12:35:47.164 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 12:35:47.469 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 12:35:47.672 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 12:35:48.934 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 12:35:48.951 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 12:35:49.845 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 12:35:51.340 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 12:35:51.401 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 12:35:51.418 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 9.423 seconds (JVM running for 10.385)
+""19-05-2022 12:41:59.528 [35m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""19-05-2022 12:41:59.840 [35m[http-nio-8080-exec-1][0;39m [31mWARN [0;39m o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 42102, SQLState: 42S02
+""19-05-2022 12:41:59.846 [35m[http-nio-8080-exec-1][0;39m [1;31mERROR[0;39m o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Table "STUDENT_DETAILS" not found; SQL statement:
+select student0_.id as id1_1_, student0_.address_id as address_5_1_, student0_.email as email2_1_, student0_.name as name3_1_, student0_.study as study4_1_ from student_details student0_ [42102-200]
+""19-05-2022 12:41:59.885 [35m[http-nio-8080-exec-1][0;39m [1;31mERROR[0;39m o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [select student0_.id as id1_1_, student0_.address_id as address_5_1_, student0_.email as email2_1_, student0_.name as name3_1_, student0_.study as study4_1_ from student_details student0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement] with root cause
+"org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENT_DETAILS" not found; SQL statement:
+select student0_.id as id1_1_, student0_.address_id as address_5_1_, student0_.email as email2_1_, student0_.name as name3_1_, student0_.study as study4_1_ from student_details student0_ [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7628)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1970)
+	at org.h2.command.Parser.parseSelectFromPart(Parser.java:2827)
+	at org.h2.command.Parser.parseSelect(Parser.java:2959)
+	at org.h2.command.Parser.parseQuerySub(Parser.java:2817)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2649)
+	at org.h2.command.Parser.parseQuery(Parser.java:2620)
+	at org.h2.command.Parser.parsePrepared(Parser.java:868)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2059)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:418)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy129.findAll(Unknown Source)
+	at com.schooolmanagement.schoolmanagementsystem.service.StudentServiceImpl.getAllStudents(StudentServiceImpl.java:22)
+	at com.schooolmanagement.schoolmanagementsystem.controller.StudentController.getAllStudents(StudentController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:799)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.schooolmanagement.schoolmanagementsystem.controller.StudentController$$EnhancerBySpringCGLIB$$3ca37c7e.getAllStudents(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+"19-05-2022 12:58:07.343 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 12:58:07.568 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 12:58:07.571 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 12:58:07.585 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 12:58:11.642 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 15200 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 12:58:11.645 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 12:58:11.718 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 12:58:11.719 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 12:58:13.094 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 12:58:13.196 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 87 ms. Found 3 JPA repository interfaces.
+""19-05-2022 12:58:14.533 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 12:58:14.551 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 12:58:14.552 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 12:58:14.731 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 12:58:14.732 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3012 ms
+""19-05-2022 12:58:14.790 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 12:58:15.112 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 12:58:15.132 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 12:58:15.307 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 12:58:15.394 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 12:58:15.606 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 12:58:15.774 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 12:58:16.701 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 12:58:16.710 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 12:58:17.477 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 12:58:18.666 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 12:58:18.707 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 12:58:18.722 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 7.864 seconds (JVM running for 8.849)
+""19-05-2022 13:00:04.916 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:00:05.151 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:00:05.156 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:00:05.164 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:00:09.158 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 12908 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:00:09.161 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:00:09.271 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:00:09.271 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:00:10.619 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:00:10.715 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:00:12.024 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:00:12.043 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:00:12.043 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:00:12.182 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:00:12.182 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2910 ms
+""19-05-2022 13:00:12.239 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:00:12.552 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:00:12.573 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 13:00:12.759 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:00:12.844 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:00:13.071 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:00:13.221 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:00:14.246 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:00:14.256 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:00:14.965 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:00:16.172 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:00:16.213 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:00:16.227 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 7.823 seconds (JVM running for 8.757)
+""19-05-2022 13:00:58.408 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:00:58.633 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:00:58.634 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:00:58.638 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:01:02.794 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 14636 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:01:02.797 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:01:02.909 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:01:02.910 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:01:04.395 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:01:04.488 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:01:05.867 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:01:05.886 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:01:05.887 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:01:06.029 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:01:06.030 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3119 ms
+""19-05-2022 13:01:06.087 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:01:06.425 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:01:06.445 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 13:01:06.637 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:01:06.728 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:01:07.006 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:01:07.174 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:01:08.149 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:01:08.160 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:01:08.933 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:01:10.105 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:01:10.147 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:01:10.159 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 8.239 seconds (JVM running for 9.049)
+""19-05-2022 13:02:15.483 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:02:15.702 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:02:15.704 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:02:15.714 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:02:19.750 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 3684 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:02:19.753 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:02:19.888 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:02:19.889 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:02:21.286 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:02:21.389 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:02:22.678 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:02:22.697 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:02:22.697 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:02:22.836 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:02:22.837 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2946 ms
+""19-05-2022 13:02:22.892 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:02:23.204 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:02:23.223 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 13:02:23.380 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:02:23.468 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:02:23.698 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:02:23.920 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:02:24.908 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:02:24.922 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:02:25.639 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:02:26.811 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:02:26.853 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:02:26.866 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 7.92 seconds (JVM running for 8.731)
+""19-05-2022 13:23:50.378 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:23:50.604 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:23:50.605 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:23:50.612 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:23:54.698 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 4908 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:23:54.700 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:23:54.786 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:23:54.786 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:23:56.159 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:23:56.259 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 87 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:23:57.568 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:23:57.586 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:23:57.587 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:23:57.711 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:23:57.712 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2925 ms
+""19-05-2022 13:23:57.760 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:23:58.013 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:23:58.031 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementdb1'
+""19-05-2022 13:23:58.226 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:23:58.330 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:23:58.587 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:23:58.750 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:23:59.759 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:23:59.774 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:24:00.530 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:24:01.742 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:24:01.783 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:24:01.797 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 7.862 seconds (JVM running for 8.762)
+""19-05-2022 13:27:43.271 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:27:43.501 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:27:43.502 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:27:43.513 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:27:47.576 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 18040 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:27:47.579 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:27:47.667 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:27:47.668 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:27:48.971 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:27:49.080 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:27:50.395 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:27:50.413 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:27:50.414 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:27:50.555 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:27:50.556 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2887 ms
+""19-05-2022 13:27:50.604 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:27:50.885 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:27:50.902 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementsystem'
+""19-05-2022 13:27:51.074 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:27:51.147 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:27:51.392 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:27:51.550 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:27:52.469 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:27:52.498 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:27:53.214 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:27:54.467 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:27:54.507 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:27:54.528 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 7.804 seconds (JVM running for 8.606)
+""19-05-2022 13:29:35.804 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:29:36.032 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:29:36.033 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:29:36.040 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+""19-05-2022 13:29:40.740 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarting - Starting SchoolManagementSystemApplication using Java 11.0.14 on BG1NBR1469 with PID 10568 (C:\Users\Administrator\Downloads\school-management-system\target\classes started by Administrator in C:\Users\Administrator\Downloads\school-management-system)
+""19-05-2022 13:29:40.742 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStartupProfileInfo - The following 1 profile is active: "h2db"
+""19-05-2022 13:29:40.817 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""19-05-2022 13:29:40.817 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""19-05-2022 13:29:42.220 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""19-05-2022 13:29:42.319 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+""19-05-2022 13:29:43.647 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+""19-05-2022 13:29:43.666 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+""19-05-2022 13:29:43.667 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+""19-05-2022 13:29:43.802 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+""19-05-2022 13:29:43.802 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2983 ms
+""19-05-2022 13:29:43.856 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+""19-05-2022 13:29:44.161 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+""19-05-2022 13:29:44.193 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.h.H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:schoolmanagementsystem'
+""19-05-2022 13:29:44.384 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+""19-05-2022 13:29:44.465 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+""19-05-2022 13:29:44.686 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""19-05-2022 13:29:44.841 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""19-05-2022 13:29:45.961 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""19-05-2022 13:29:45.973 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:29:46.711 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""19-05-2022 13:29:47.899 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+""19-05-2022 13:29:47.941 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+""19-05-2022 13:29:47.953 [35m[restartedMain][0;39m [34mINFO [0;39m c.s.s.SchoolManagementSystemApplication.logStarted - Started SchoolManagementSystemApplication in 8.042 seconds (JVM running for 8.847)
+""19-05-2022 13:39:43.353 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+""19-05-2022 13:39:43.572 [35m[SpringApplicationShutdownHook][0;39m [31mWARN [0;39m o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""19-05-2022 13:39:43.575 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+""19-05-2022 13:39:43.583 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+"
