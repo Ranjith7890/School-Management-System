@@ -45,6 +45,12 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
         return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
     }
+    @ExceptionHandler(StudentNotFoundException.class)
+    public ResponseEntity<?> studentNotFoundException(StudentNotFoundException ex,WebRequest request){
+        Map<String,String> body = new HashMap<>();
+        body.put("message", ex.getMessage());
+        return  new ResponseEntity<>(body,HttpStatus.NOT_FOUND);
+    }
 
     @ExceptionHandler(ConstraintViolationException.class)
     public ResponseEntity<?> constraintViolationException(ConstraintViolationException ex, WebRequest request) {

@@ -3,9 +3,12 @@ package com.schooolmanagement.schoolmanagementsystem.controller;
 
 
 import com.schooolmanagement.schoolmanagementsystem.dto.StudentDto;
+import com.schooolmanagement.schoolmanagementsystem.exception.GlobalExceptionHandler;
 import com.schooolmanagement.schoolmanagementsystem.exception.ResourceNotFoundException;
+import com.schooolmanagement.schoolmanagementsystem.exception.StudentNotFoundException;
 import com.schooolmanagement.schoolmanagementsystem.mapper.StudentMappers;
 import com.schooolmanagement.schoolmanagementsystem.model.Student;
+import com.schooolmanagement.schoolmanagementsystem.repository.StudentRepository;
 import com.schooolmanagement.schoolmanagementsystem.service.StudentServiceImpl;
 
 
@@ -14,7 +17,10 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,8 +36,8 @@ import java.util.Optional;
 public class StudentController {
       @Autowired
       StudentServiceImpl studentServiceImpl;
-
-
+    @Autowired
+    StudentRepository studentRepository;
      StudentMappers studentMappers;
 
 
@@ -106,5 +112,29 @@ public class StudentController {
 
         return StudentMappers.StudentDTOs(allStudents);
     }
+
+   @GetMapping("/allstudents/{study}")
+
+    public List<Student> getStudentsByStudy(@PathVariable("study") String study){
+
+       List<Student> allStudentsByStudy = studentRepository.findByStudy(study);
+       return allStudentsByStudy;
+    }
+    @GetMapping("/FirstFiveStudents")
+    public  List<Student> getFirstFiveStudents(){
+        List<Student> firstFiveStudents = studentRepository.findFirstFiveStudents();
+        return firstFiveStudents;
+    }
+    @GetMapping("/allStudents/{name}")
+    public List<Student> getStudentByName(@PathVariable("name") String name){
+        List<Student> foundByName= studentRepository.getByName(name);
+        return foundByName;
+    }
+    @GetMapping("/pagination/{pageNumber}/{pageSize}/{field}")
+    public Page<Student> getStudentsByPagination(@PathVariable("pageNumber") int pageNumber,@PathVariable("pageSize") int pageSize, @PathVariable("field") String field){
+        Page<Student> getStudentsUsingPagination = studentServiceImpl.getStudentWithPagination(pageNumber, pageSize, field);
+        return  getStudentsUsingPagination;
+    }
+
 }
 

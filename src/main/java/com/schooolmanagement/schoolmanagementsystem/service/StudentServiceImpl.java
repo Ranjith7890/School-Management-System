@@ -6,6 +6,9 @@ import com.schooolmanagement.schoolmanagementsystem.exception.ResourceNotFoundEx
 import com.schooolmanagement.schoolmanagementsystem.model.Student;
 import com.schooolmanagement.schoolmanagementsystem.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ReflectionUtils;
 
@@ -63,7 +66,20 @@ public class StudentServiceImpl implements StudentService {
         studentRepository.deleteById(id);
     }
 
-   @Override
+    @Override
+    public Page<Student> getStudentWithPagination(int pageNumber, int pageSize , String field) {
+        Page<Student> students = studentRepository.findAll(PageRequest.of(pageNumber,pageSize).withSort(Sort.by(field)));
+        return students;
+    }
+
+    /**  @Override
+    public List<Student> getByStudy(String study) throws  ResourceNotFoundException {
+        List<Student> studentList = studentRepository.findByStudy(study);
+        return studentList;
+
+    } */
+
+    @Override
     public Student updateStudentWithMap(int id, Map<Object, Object> objectMap) {
        Student student = studentRepository.findById(id).get();
         objectMap.forEach((key,value) -> {

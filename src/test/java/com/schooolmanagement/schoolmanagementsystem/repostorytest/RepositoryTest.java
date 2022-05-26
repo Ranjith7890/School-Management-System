@@ -24,7 +24,7 @@ public class RepositoryTest {
     {
         //given
         Student Ranjith = Student.builder()
-                .name("Ramuu")
+                .name("Ramu")
                 .email("ranjith@gmail.com")
                 .study("9th")
                 .address(null)
@@ -34,11 +34,11 @@ public class RepositoryTest {
         Student savedStudent = studentRepository.save(Ranjith);
 
         //when
-        Student student = studentRepository.getStudentByName("Ramuu");
+        Student student = studentRepository.getStudentByName("Ramu");
 
         //then
         Assertions.assertThat(savedStudent.getId()).isNotNull();
-        Assertions.assertThat(student.getName()).isEqualTo("Ram");
+        Assertions.assertThat(student.getName()).isEqualTo("Ramu");
     }
 
     @Test
